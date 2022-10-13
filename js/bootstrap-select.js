@@ -1203,6 +1203,7 @@
             this.options.styleBase +
             ' dropdown-toggle" ' +
             (this.options.display === 'static' ? 'data-display="static"' : '') +
+            (this.options.autoClose !== undefined ? ' data-bs-auto-close="' + this.options.autoClose + '"' : '') +
             Selector.DATA_TOGGLE +
             autofocus +
             ' role="combobox" aria-owns="' +
